@@ -2,12 +2,13 @@ body {
     width: 70%;
 }
 .landing {
-    background: yellow;
+    background: linear-gradient(#79B89B, #FFC0A8);;
     height: 100vh;
     width: 100vw;
     display: table
 }
 .landing .landing-text {
+    color: white;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
