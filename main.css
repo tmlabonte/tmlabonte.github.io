@@ -3,12 +3,6 @@ body {
     width: 70%;
     text-align: center;
 }
-.jumbotron{
-    height: 100vh;
-}
-.navbar {
-    margin-bottom: 0px;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
