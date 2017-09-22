@@ -4,8 +4,43 @@ body {
     text-align: center;
 }
 .landing {
+    background: #fc6076;
+    background: -webkit-linear-gradient(to top, #fc6076, #ff9a44);
+    background: linear-gradient(to top, #fc6076, #ff9a44);
     height: 100vh;
     width: 100vw;
+    display: table
+}
+
+.landing .landing-bg {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-in
+}
+
+.landing .landing-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 999
+}
+
+.landing .landing-text h1 {
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: inline;
+    color: #FFFFFF
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
