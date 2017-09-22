@@ -7,9 +7,8 @@ body {
     width: 100vw;
     display: table
 }
-.title {
+.landing.titletext {
     color: white;
-    font-size: 5em;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
@@ -31,6 +30,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+title {
+    font-size: 5em;
 }
 h1 {
     font-size: 3em;
