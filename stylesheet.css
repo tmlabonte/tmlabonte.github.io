@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 .landing {
-    background: #FF7A00;
     background: linear-gradient(#FFBC00, #FF7A00);
     height: 100vh;
     width: 100vw;
