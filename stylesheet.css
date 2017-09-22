@@ -1,9 +1,8 @@
 body {
-    width: 70%;
-    text-align: center;
+    width: 70vw;
 }
 .landing {
-    background: orange;
+    background: blue;
     height: 100vh;
     width: 100vw;
     display: table
