@@ -3,11 +3,16 @@ body {
     width: 70%;
     text-align: center;
 }
-.landing {
-    background: red;
-    height: 100vh;
-    width: 100vw;
-    display: table
+.viewport-1 {
+  background-size: cover;
+  background-image: url('http://www.tipue.com/img/jetty.jpg');
+  height: 100vh;
+  width: 100vw;
+}
+.inner-div {
+  padding-top: 70px;
+  margin: 0 auto;
+  width: 370px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
