@@ -7,8 +7,9 @@ body {
     width: 100vw;
     display: table
 }
-.landing .landing-text {
+.title {
     color: white;
+    font-size: 5em;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
