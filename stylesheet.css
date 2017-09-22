@@ -2,7 +2,7 @@ body {
     width: 70%;
 }
 .landing {
-    background: linear-gradient(#54CA94, #FF936B);
+    background: linear-gradient(#FFBF6B, #5894C2);
     height: 100vh;
     width: 100vw;
     display: table
@@ -10,23 +10,22 @@ body {
 .landing.titletext {
     color: white;
     display: table-cell;
-    vertical-align: middle;
     text-align: center;
+    vertical-align: middle;
     z-index: 999
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
     font-weight: bold;
+    list-style: none;
 }
 footer ul li {
     display: inline;
     margin-right: 20px;
 }
 a {
-    text-decoration: none;
     color: #999;
+    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
@@ -35,16 +34,16 @@ h1 {
     font-size: 5em;
 }
 h2 {
-    font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 3em; 
 }
 h3 {
     font-size: 2em;
 }
 p {
+    color: #333;
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
