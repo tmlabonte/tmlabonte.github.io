@@ -9,7 +9,6 @@ body {
     display: table
 }
 .landing .landing-text {
-    color: red;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
