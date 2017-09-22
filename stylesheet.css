@@ -4,13 +4,13 @@ body {
     text-align: center;
 }
 .landing {
-    background: #fc6076;
+    background: gold;
     height: 100vh;
     width: 100vw;
     display: table
 }
 .landing .landing-text {
-    color: #ffffff;
+    color: red;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
