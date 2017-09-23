@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .landing {
-    background: linear-gradient(yellow, orange);
+    background: linear-gradient(#1387FF, #00FF67);
     height: 100vh;
     width: 100vw;
     display: table
