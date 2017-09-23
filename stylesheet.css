@@ -28,7 +28,6 @@ body {
 }
 
 .landing .titletext p {
-    font-size: 2em;
     font-weight: 300;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -39,7 +38,7 @@ body {
         font-size: 4em
     }
     .landing .titletext p {
-        font-size: 1.5em
+        font-size: 1em
     }
 }
 
@@ -48,7 +47,7 @@ body {
         font-size: 3em;
     }
     .landing .titletext p {
-        font-size: 1em
+        font-size: 0.5em
     }
 }
 
