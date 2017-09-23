@@ -17,6 +17,7 @@ body {
     color: #FFFFFF;
     size: 6rem;
     font-weight: 700;
+    display: inline;
 }
 .landing .titletext h2{
     color: #FFFFFF;
