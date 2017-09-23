@@ -11,21 +11,6 @@ body {
     display: table
 }
 
-.landing .landing-bg {
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    animation-name: fade;
-    animation-duration: 2s;
-    animation-delay: .5s;
-    animation-fill-mode: backwards;
-    animation-timing-function: ease-in
-}
-
 .landing .titletext {
     display: table-cell;
     vertical-align: middle;
@@ -42,6 +27,12 @@ body {
     color: #FFFFFF
 }
 
+.landing .titletext p {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
 @media screen and (max-width: 992px) {
     .landing .titletext h1 {
         font-size:4em
@@ -52,12 +43,6 @@ body {
     .landing .titletext h1 {
         font-size:3em
     }
-}
-
-.landing .titletext p {
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #FFFFFF
 }
 
 footer ul {
@@ -82,20 +67,15 @@ a:hover {
 
 h1 {
     color: #FFFFFF;
-    size: 5em;
+    font-size: 5em;
 }
 
-h4 {
-    size: 3em;
-}
-
-h5 {
-    color: #FFFFFF;
-    size: 1em;
+h2 {
+    font-size: 3em;
 }
 
 p {
-    size: 1.5em;
+    font-size: 1.5em;
 }
 
 footer {
