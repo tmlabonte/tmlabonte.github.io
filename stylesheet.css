@@ -13,16 +13,6 @@ body {
     text-align: center;
     z-index: 999
 }
-.landing .titletext h1{
-    color: #FFFFFF;
-    size: 6rem;
-    font-weight: 700;
-    display: inline;
-}
-.landing .titletext h2{
-    color: #FFFFFF;
-    size: 2rem;
-}
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
