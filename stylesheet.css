@@ -13,14 +13,6 @@ body {
     text-align: center;
     z-index: 999
 }
-.landing .landing-text h1 {
-    text-transform: uppercase;
-    font-size: 5em;
-    font-weight: 700;
-    margin-bottom: 10px;
-    display: inline;
-    color: #FFFFFF
-}
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-weight: bold;
