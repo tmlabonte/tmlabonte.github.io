@@ -45,8 +45,13 @@ h4 {
     color: #FFFFFF;
     size: 2em;
 }
-p {
+h5 {
+    color: #FFFFFF;
     size: 1.5em;
+}
+p {
+    color: #FFFFFF;
+    size: 1em;
 }
 footer {
     border-top: 1px solid #d5d5d5;
