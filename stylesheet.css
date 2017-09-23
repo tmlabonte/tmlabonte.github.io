@@ -2,16 +2,24 @@ body {
     margin: 0;
 }
 .landing {
-    background: linear-gradient(#1387FF, #00FF67);
+    background: linear-gradient(#1097FF, #00FF43);
     height: 100vh;
     width: 100vw;
     display: table
 }
-.titletext {
+.landing .titletext {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
     z-index: 999
+}
+.landing .landing-text h1 {
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: inline;
+    color: #FFFFFF
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
