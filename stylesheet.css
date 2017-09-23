@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 .landing {
-    background: linear-gradient(#FFBC00, #FF7A00);
+    background: linear-gradient(yellow, orange);
     height: 100vh;
     width: 100vw;
     display: table
@@ -37,8 +37,11 @@ h2 {
     size: 4em;
 }
 h3 {
-    color: #FFFFFF;
     size: 3em;
+}
+h4 {
+    color: #FFFFFF;
+    size: 2.5em;
 }
 p {
     size: 1.5em;
