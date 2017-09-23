@@ -8,14 +8,15 @@ body {
     background: linear-gradient(#1097FF, #00FF43);
     height: 100vh;
     width: 100vw;
-    display: table
+    display: table;
+    padding-bottom: 30px;
 }
 
 .landing .titletext {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    z-index: 999
+    z-index: 999;
 }
 
 .landing .titletext h1 {
@@ -24,13 +25,14 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
     display: inline;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .landing .titletext p {
+    font-size: 2.5em;
     font-weight: 300;
     text-transform: uppercase;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 @media screen and (max-width: 992px) {
@@ -41,7 +43,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .landing .titletext h1 {
-        font-size:3em
+        font-size:3em;
     }
 }
 
