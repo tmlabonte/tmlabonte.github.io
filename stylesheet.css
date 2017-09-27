@@ -1,17 +1,14 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .landing {
-    background: url("images/IMG_2451.PNG") no repeat center center fixed;
+    background: url("images/Landing.JPG") no-repeat center center fixed;
     background-size: cover;
-    /*background: #1097FF;
-    background: -webkit-linear-gradient(#1097FF, #00FF43);
-    background: linear-gradient(#1097FF, #00FF43);*/
     height: 100vh;
     width: 100vw;
     display: table;
-    overflow-x: hidden;
 }
 
 .landing .titletext {
@@ -23,7 +20,7 @@ body {
 
 .landing .titletext h1 {
     text-transform: uppercase;
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 700;
     margin-bottom: 10px;
     display: inline;
@@ -31,27 +28,84 @@ body {
 }
 
 .landing .titletext p {
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%; 
+    height: 4rem; 
+    background-color: #95BF4C;
+    color: #FFFFFF;
+    z-index: 9999;
+    display: none;
+    float: left;
+}
+
+.navbar img {
+  position: relative;
+  left: 11rem;
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}
+
+.navbar h1 {
+  position: relative;
+  left: 13rem;
+  top: 0.2rem;
+  font-size: 1.5rem;
+  font-family: Lato, sans-serif;
+  display: inline-block;
+}
+
+.navbar h2 {
+  position: relative;
+  left: 17rem;
+  top: 0.2rem;
+  font-size: 1.5rem;
+  font-family: Lato, sans-serif;
+  color: #FFFFFF;
+  font-weight: normal;
+  display: inline-block;
+}
+
+.navbar h3 {
+  position: relative;
+  left: 21rem;
+  top: 0.2rem;
+  font-size: 1.5rem;
+  font-family: Lato, sans-serif;
+  display: inline-block;
+}
+
+.navbar h4 {
+  position: relative;
+  left: 25rem;
+  top: 0.2rem;
+  font-size: 1.5rem;
+  font-family: Lato, sans-serif;
+  display: inline-block;
+}
+
 @media screen and (max-width: 992px) {
     .landing .titletext h1 {
-        font-size: 4em
+        font-size: 4rem
     }
     .landing .titletext p {
-        font-size: 1.5em
+        font-size: 1.5rem
     }
 }
 
 @media screen and (max-width: 768px) {
     .landing .titletext h1 {
-        font-size: 3em;
+        font-size: 3rem;
     }
     .landing .titletext p {
-        font-size: 1em
+        font-size: 1rem
     }
 }
 
@@ -67,7 +121,8 @@ footer ul li {
 }
 
 a {
-    color: #999;
+    color: #95BF4C;
+    font-weight: 575;
     text-decoration: none;
 }
 
@@ -77,15 +132,18 @@ a:hover {
 
 h1 {
     color: #FFFFFF;
-    font-size: 5em;
+    font-size: 5rem;
 }
 
 h2 {
-    font-size: 3em;
+    color: #95BF4C;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
 
 p {
-    font-size: 1.5em;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
 }
 
 footer {
@@ -93,6 +151,6 @@ footer {
     font-size: .8rem;
 }
 
-#first {
-    padding: 4em;
+#bio {
+    padding: 5.5rem;
 }
