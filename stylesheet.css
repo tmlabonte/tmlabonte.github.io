@@ -9,7 +9,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: table;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .landing .titletext {
@@ -92,5 +92,5 @@ footer {
 }
 
 #first {
-    margin: 2em;
+    padding-top: 2em;
 }
