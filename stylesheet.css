@@ -3,9 +3,10 @@ body {
 }
 
 .landing {
-    background: #1097FF;
+    background: "/images/IMG_2451.PNG";
+    /*background: #1097FF;
     background: -webkit-linear-gradient(#1097FF, #00FF43);
-    background: linear-gradient(#1097FF, #00FF43);
+    background: linear-gradient(#1097FF, #00FF43);*/
     height: 100vh;
     width: 100vw;
     display: table;
@@ -92,5 +93,5 @@ footer {
 }
 
 #first {
-    padding-top: 2em;
+    padding: 4em;
 }
