@@ -3,7 +3,8 @@ body {
 }
 
 .landing {
-    background: "/images/IMG_2451.PNG";
+    background: url("images/IMG_2451.PNG") no repeat center center fixed;
+    background-size: cover;
     /*background: #1097FF;
     background: -webkit-linear-gradient(#1097FF, #00FF43);
     background: linear-gradient(#1097FF, #00FF43);*/
