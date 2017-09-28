@@ -159,6 +159,12 @@ footer {
     padding: 2rem;
 }
 
+.projects img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
 #skills {
     padding: 2rem;
 }
