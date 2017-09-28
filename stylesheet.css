@@ -160,11 +160,17 @@ footer {
 }
 
 #projects {
-    padding: 2rem;
+    padding: 1rem;
+}
+
+#projects img {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
 }
 
 #skills {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #skills h1 {
