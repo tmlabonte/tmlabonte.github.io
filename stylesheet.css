@@ -4,7 +4,7 @@ body {
 }
 
 .landing {
-    background: url("images/Landing.JPG") no-repeat center center fixed;
+    background: url("/images/Landing.JPG") no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
     width: 100vw;
@@ -153,4 +153,12 @@ footer {
 
 #bio {
     padding: 5.5rem;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+#skills {
+    padding: 2rem;
 }
