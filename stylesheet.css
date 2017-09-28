@@ -53,6 +53,11 @@ body {
   border-radius: 50%;
 }
 
+.navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .navbar h1 {
   position: relative;
   left: 13rem;
