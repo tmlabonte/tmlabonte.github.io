@@ -111,13 +111,11 @@ body {
     }
 }
 
-footer ul {
-    list-style: none;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 20px;
+.footer {
+    font-family: 'Lato', sans-serif; 
+    font-size: 1rem; 
+    color: #95BF4C; 
+    font-weight: bold;
 }
 
 a {
