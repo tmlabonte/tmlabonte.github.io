@@ -166,3 +166,10 @@ footer {
 #skills {
     padding: 2rem;
 }
+
+#skills h1 {
+    color: #95BF4C;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
