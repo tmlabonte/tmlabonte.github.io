@@ -111,14 +111,6 @@ body {
     }
 }
 
-.footer {
-    font-family: 'Lato', sans-serif; 
-    font-size: 1rem; 
-    color: #95BF4C; 
-    font-weight: bold;
-    text-align: center;
-}
-
 a {
     color: #95BF4C;
     font-weight: 575;
@@ -146,8 +138,11 @@ p {
 }
 
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8rem;
+    font-family: 'Lato', sans-serif; 
+    font-size: 1rem; 
+    color: #95BF4C; 
+    font-weight: bold;
+    text-align: center;
 }
 
 #bio {
