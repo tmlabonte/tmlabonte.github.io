@@ -151,6 +151,8 @@ footer {
 
 #projects {
     padding: 1rem;
+    padding-bottom: 5rem;
+    background: #F5F5F5;
 }
 
 #projects img {
@@ -195,7 +197,7 @@ footer {
 }
 
 #skills {
-    padding: 5rem;
+    padding: 3rem;
 }
 
 #skills h1 {
@@ -204,5 +206,16 @@ footer {
     text-align: center;
     color: #95BF4C;
     font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 3rem
+}
+
+#skills h2 {
+    color: #EE3224;
+    font-size: 4.5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#skills p {
     font-family: 'Lato', sans-serif;
 }
