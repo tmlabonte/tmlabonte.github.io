@@ -4,25 +4,33 @@ body {
 }
 
 .landing {
+    background: url("./images/Landing.JPG") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.title {
   background-size: cover;
-  height: 50vh;
+  height: 48vh;
   width: 100vw;
   display: table;
 }
 
-.landing .titletext {
+.title .titletext {
   display: table-cell;
   padding-top: 30vh;
   text-align: center;
   z-index: 999;
 }
 
-.landing .titletext h1 {
+.title .titletext h1 {
   font-size: 5rem;
-  font-weight: normal;
+  letter-spacing: 1px;
+  font-weight: bold;
   margin-bottom: 10px;
   display: inline;
-  color: #000000;
+  color: #001f3f;
   font-family: 'Capriola', sans-serif;
 }
 
@@ -33,28 +41,29 @@ ul {
   height: 8vh;
   width: 50vw;
   overflow: hidden;
-  background-color: #FFFFFF;
-  border: 1px solid black;
+  background-color: rgba(130,150,190,0.05);
   border-radius: 25px;
   display: block;
 }
 
 ul li {
-  border-right: 1px solid #000000;
   height: 10vh;
   float: left;
   text-align: center;
-  width: 16%;
+  width: 16.667%;
   font-family: 'Lato', sans-serif;
-}
-
-ul li:last-child {
-  border-right: none;
 }
 
 ul li a {
   display: block;
-  line-height: 7.5vh;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  line-height: 8vh;
+  color: #001f3f;
+}
+
+ul li a:hover {
+  background-color: #D3D3D3;
 }
 
 a {
@@ -62,8 +71,4 @@ a {
   font-weight: normal;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
