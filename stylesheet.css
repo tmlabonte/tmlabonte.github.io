@@ -5,79 +5,65 @@ body {
 
 .landing {
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   display: table;
 }
 
 .landing .titletext {
   display: table-cell;
-  padding-top: 150px;
+  padding-top: 30vh;
   text-align: center;
   z-index: 999;
-  font-family: 'Lato', sans-serif;
 }
 
 .landing .titletext h1 {
-  text-transform: uppercase;
   font-size: 5rem;
-  font-weight: 700;
+  font-weight: normal;
   margin-bottom: 10px;
   display: inline;
   color: #000000;
-}
-
-.landing .titletext p {
-  font-size: 2rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: #000000;
+  font-family: 'Capriola', sans-serif;
 }
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
+  height: 8vh;
+  width: 50vw;
   overflow: hidden;
-  background-color: #000000;
+  background-color: #FFFFFF;
   border: 1px solid black;
+  border-radius: 25px;
+  display: block;
 }
 
-li {
+ul li {
+  border-right: 1px solid #000000;
+  height: 10vh;
   float: left;
+  text-align: center;
+  width: 16%;
+  font-family: 'Lato', sans-serif;
+}
+
+ul li:last-child {
+  border-right: none;
+}
+
+ul li a {
+  display: block;
+  line-height: 7.5vh;
 }
 
 a {
   color: #000000;
-  font-weight: 575;
+  font-weight: normal;
   font-family: 'Lato', sans-serif;
-}
-
-a:hover {
   text-decoration: none;
 }
 
-h1 {
-  color: #FFFFFF;
-  font-size: 5rem;
-  font-family: 'Lato', sans-serif;
-}
-
-h2 {
-  color: #95BF4C;
-  font-weight: bold;
-  font-family: 'Lato', sans-serif;
-}
-
-p {
-  font-size: 1.2rem;
-  font-family: 'Lato', sans-serif;
-}
-
-footer {
-  font-family: 'Lato', sans-serif; 
-  font-size: 1rem; 
-  color: #95BF4C; 
-  font-weight: bold;
-  text-align: center;
+a:hover {
+  text-decoration: underline;
 }
