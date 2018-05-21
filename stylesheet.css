@@ -12,7 +12,7 @@ body {
 
 .landing .titletext {
     display: table-cell;
-    vertical-align: middle;
+    padding-top: 200px;
     text-align: center;
     z-index: 999;
 }
@@ -23,14 +23,14 @@ body {
     font-weight: 700;
     margin-bottom: 10px;
     display: inline;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .landing .titletext p {
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 a {
