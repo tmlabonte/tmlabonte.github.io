@@ -1,74 +1,83 @@
 body {
-    margin: 0;
-    overflow-x: hidden;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .landing {
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    display: table;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: table;
 }
 
 .landing .titletext {
-    display: table-cell;
-    padding-top: 150px;
-    text-align: center;
-    z-index: 999;
-    font-family: 'Lato', sans-serif;
+  display: table-cell;
+  padding-top: 150px;
+  text-align: center;
+  z-index: 999;
+  font-family: 'Lato', sans-serif;
 }
 
 .landing .titletext h1 {
-    text-transform: uppercase;
-    font-size: 5rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    display: inline;
-    color: #000000;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: inline;
+  color: #000000;
 }
 
 .landing .titletext p {
-    font-size: 2rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #000000;
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000000;
 }
 
-.nav {
-  display: inline-block;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  border: 1px solid black;
+}
+
+li {
+  float: left;
 }
 
 a {
-    color: #000000;
-    font-weight: 575;
-    font-family: 'Lato', sans-serif;
+  color: #000000;
+  font-weight: 575;
+  font-family: 'Lato', sans-serif;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h1 {
-    color: #FFFFFF;
-    font-size: 5rem;
-    font-family: 'Lato', sans-serif;
+  color: #FFFFFF;
+  font-size: 5rem;
+  font-family: 'Lato', sans-serif;
 }
 
 h2 {
-    color: #95BF4C;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
+  color: #95BF4C;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
-    font-size: 1.2rem;
-    font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
 }
 
 footer {
-    font-family: 'Lato', sans-serif; 
-    font-size: 1rem; 
-    color: #95BF4C; 
-    font-weight: bold;
-    text-align: center;
+  font-family: 'Lato', sans-serif; 
+  font-size: 1rem; 
+  color: #95BF4C; 
+  font-weight: bold;
+  text-align: center;
 }
