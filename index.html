@@ -21,7 +21,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Capriola|Lato" rel="stylesheet">
 
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="./stylesheet.css">
 	</head>
 	<body>
 		<div class="landing">
@@ -31,15 +31,49 @@
 				</div>
 			</div>
 			<div class="nav">
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#blog">Blog</a></li>
+				<ul id="nav">
+					<li><a href="#about" onclick="about()">About</a></li>
+					<li><a href="resume.pdf" target="_blank">Resume</a></li>
 					<li><a href="#research">Research</a></li>
 					<li><a href="#projects">Projects</a></li>
-					<li><a href="resume.pdf">Resume</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#blog" >Blog</a></li>
 				</ul>
+			</div>
+			<div class="links">
+				<ul id="links">
+					<li><a href="https://github.com/tmlabonte" target="_blank"><img src="images/github.svg" height="25" width="25"></a></li>
+					<li><a href="https://linkedin.com/in/tmlabonte" target="_blank"><img src="images/linkedin.png" height="25" width="25"></a></li>
+					<li><a href="mailto:tlabonte@usc.edu" target="_blank"><img src="images/mail.png" height="25" width="25"></a></li>
+				</ul>
+			</div>
+			<div class="articles">
+				<article id="about">
+					<div style="width: 65%; float:left">
+   					<h2>Hey there, I'm Tyler!</h2>
+					<p>I'm a sophomore, Trustee Scholar (top 2% of USC Class of 2021), and Viterbi Fellow (top 6% of Viterbi Class of 2021) at the University of Southern California. I'm majoring in Computer Science and minoring in Statistics.</p>
+					<p>Raised in Hawaii, my favorite pastimes include training in karate (I'm a third degree black belt), going on scenic hikes, and eating <a href="https://www.google.com/search?q=loco+moco&num=30&source=lnms&tbm=isch&sa=X&ved=0ahUKEwip7eWe6cTWAhUKslQKHdnrCDUQ_AUICigB&biw=1364&bih=677">Loco Mocos</a>. I'm incredibly excited to be studying in Los Angeles, the city of dreamers and doers alike; the vibrancy of the city provides inspiration for both my creative and technological ventures.</p>
+					<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of AI and data science through original, ethical research with real-world applications. Last year, I worked at USC's <a href="http://dsi.usc.edu">Data Science Institute</a> as a research assistant on Big Data projects, developing machine learning algorithms to predict graft failure probabilities of liver transplantations. Over the summer, I worked as a Deep Learning Intern at the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">U.S. Air Force Optical and Supercomputing Laboratory</a> in Kihei, Hawaii, designing generative adversarial networks (GANs) to leverage the power of their unparalleled space image datasets.</p>
+					<p>I'm currently searching for a research internship for the summer of 2019 - please feel free to view my <a href="resume.pdf" target="_blank">resume</a> or shoot me an <a href="mailto:tlabonte@usc.edu">email</a> if you would like to get in touch.</p>
+					</div>
+					<div style="width: 35%; float:right">
+					<a href=""><img id="x" src="images/X.png" alt="X" width="25" height="25"></a>
+   					<img id="aboutImg" src="images/About.jpg" alt="Photo of me" width="350" height="430">
+					</div>
+				</article>
+				<article id="blog">
+				</article>
+				<article id="research">
+				</article>
+				<article id="projects">
+				</article>
 			</div>
 		</div>
 	</body>
+	<script type="text/javascript">
+		function about() {
+			document.getElementsByClassName("title")[0].style.display = "none";
+			document.getElementsByClassName("nav")[0].style.display = "none";
+			document.getElementById("about").style.display = "block";
+		}
+	</script>
 </html>

@@ -3,6 +3,46 @@ body {
   overflow-x: hidden;
 }
 
+article {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  display: none;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(130,150,190,0.75);
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #001f3f;
+  font-family: 'Capriola', sans-serif;
+}
+
+h2 {
+  color: #001f3f;
+  font-family: 'Capriola', sans-serif;
+  font-size: 2em;
+}
+
+p {
+  color: #001f3f;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+}
+
+a {
+  color: #001f3f;
+  text-decoration: none;
+}
+
 .landing {
     background: url("./images/Landing.JPG") no-repeat center center fixed;
     background-size: cover;
@@ -12,14 +52,14 @@ body {
 
 .title {
   background-size: cover;
-  height: 48vh;
+  height: 41vh;
   width: 100vw;
   display: table;
 }
 
 .title .titletext {
   display: table-cell;
-  padding-top: 30vh;
+  padding-top: 27vh;
   text-align: center;
   z-index: 999;
 }
@@ -28,10 +68,23 @@ body {
   font-size: 5rem;
   letter-spacing: 1px;
   font-weight: bold;
-  margin-bottom: 10px;
   display: inline;
   color: #001f3f;
   font-family: 'Capriola', sans-serif;
+}
+
+
+#aboutImg {
+  position: relative;
+  top: 45px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+#x {
+  float: right;
+  padding-top: 15px;
+  color: #001f3f;
 }
 
 ul {
@@ -41,16 +94,29 @@ ul {
   height: 8vh;
   width: 50vw;
   overflow: hidden;
-  background-color: rgba(130,150,190,0.05);
+  background-color: rgba(130,150,190,0);
   border-radius: 25px;
   display: block;
 }
 
-ul li {
+#links {
+  height: 6vh;
+  width: 15vw;
+}
+
+#nav li {
   height: 10vh;
   float: left;
   text-align: center;
-  width: 16.667%;
+  width: 20%;
+  font-family: 'Lato', sans-serif;
+}
+
+#links li {
+  height: 10vh;
+  float: left;
+  text-align: center;
+  width: 33.3%;
   font-family: 'Lato', sans-serif;
 }
 
@@ -60,15 +126,9 @@ ul li a {
   font-weight: bold;
   line-height: 8vh;
   color: #001f3f;
+  font-size: 1.3em
 }
 
-ul li a:hover {
+#nav li a:hover {
   background-color: #D3D3D3;
-}
-
-a {
-  color: #000000;
-  font-weight: normal;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
 }
