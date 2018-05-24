@@ -21,7 +21,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Capriola|Lato" rel="stylesheet">
 
 		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="./stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>
 	<body>
 		<div class="landing">
@@ -34,9 +34,9 @@
 				<ul id="nav">
 					<li><a href="#about" onclick="about()">About</a></li>
 					<li><a href="resume.pdf" target="_blank">Resume</a></li>
-					<li><a href="#research">Research</a></li>
-					<li><a href="#projects">Projects</a></li>
-					<li><a href="#blog" >Blog</a></li>
+					<li><a href="#research" onclick="research()">Research</a></li>
+					<li><a href="#projects" onclick="projects()">Projects</a></li>
+					<li><a href="#blog">Blog</a></li>
 				</ul>
 			</div>
 			<div class="links">
@@ -52,7 +52,7 @@
    					<h2>Hey there, I'm Tyler!</h2>
 					<p>I'm a sophomore, Trustee Scholar (top 2% of USC Class of 2021), and Viterbi Fellow (top 6% of Viterbi Class of 2021) at the University of Southern California. I'm majoring in Computer Science and minoring in Statistics.</p>
 					<p>Raised in Hawaii, my favorite pastimes include training in karate (I'm a third degree black belt), going on scenic hikes, and eating <a href="https://www.google.com/search?q=loco+moco&num=30&source=lnms&tbm=isch&sa=X&ved=0ahUKEwip7eWe6cTWAhUKslQKHdnrCDUQ_AUICigB&biw=1364&bih=677">Loco Mocos</a>. I'm incredibly excited to be studying in Los Angeles, the city of dreamers and doers alike; the vibrancy of the city provides inspiration for both my creative and technological ventures.</p>
-					<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of AI and data science through original, ethical research with real-world applications. Last year, I worked at USC's <a href="http://dsi.usc.edu">Data Science Institute</a> as a research assistant on Big Data projects, developing machine learning algorithms to predict graft failure probabilities of liver transplantations. Over the summer, I worked as a Deep Learning Intern at the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">U.S. Air Force Optical and Supercomputing Laboratory</a> in Kihei, Hawaii, designing generative adversarial networks (GANs) to leverage the power of their unparalleled space image datasets.</p>
+					<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of AI and data science through original, ethical research with real-world applications. Last year, I worked at USC's <a href="http://dsi.usc.edu">Data Science Institute</a> as an undergraduate researcher on Big Data projects, developing machine learning algorithms to predict graft failure probabilities of liver transplantations. Over the summer, I worked as a Deep Learning Intern at the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">Air Force Maui Optical and Supercomputing Laboratory</a>, designing generative adversarial networks (GANs) to leverage the power of their unparalleled space image datasets.</p>
 					<p>I'm currently searching for a research internship for the summer of 2019 - please feel free to view my <a href="resume.pdf" target="_blank">resume</a> or shoot me an <a href="mailto:tlabonte@usc.edu">email</a> if you would like to get in touch.</p>
 					</div>
 					<div style="width: 35%; float:right">
@@ -63,8 +63,94 @@
 				<article id="blog">
 				</article>
 				<article id="research">
+					<div style="width: 95%; float:left">
+   					<h2>Research</h2>
+					<p style="line-height: 1.5em">I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of AI and data science through original, ethical research with real-world applications. Specifically, I am interested in theoretical machine learning, probabilistic algorithms, cryptography, and optimization - especially their connections to pure math topics such as topology and number theory.</p>
+					<ul>
+						<li>
+							<a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory"><p style="font-weight: bold;">Deep Learning Intern, Air Force Maui Optical and Supercomputing Laboratory</p></a>
+							<ul>
+								<li>
+									Deployed TensorFlow to design generative adversarial networks (GANs), simulating images from the AMOS telescope's dataset.
+								</li>
+								<li>
+									Hoping to publish a workshop paper by the end of summer 2018.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="dsi.usc.edu"><p style="font-weight: bold;">Undergraduate Researcher, USC Data Science Institute</p></a>
+							<ul>
+								<li>
+									Used Scikit-learn and TensorFlow to develop random forests and deep neural networks to predict graft futility in liver transplantation patients.
+								</li>
+								<li>
+									Applied F1/AUROC to rank and optimize the performance of various machine learning models.
+								</li>
+								<li>
+									Wrote and researched sections of conference paper (submitted to Stanford ML for Healthcare) and project/funding proposals.
+								</li>
+							</ul>
+						</li>
+					</ul>
+					</div>
+					<div style="width: 5%; float:right">
+					<a href=""><img id="x" src="images/X.png" alt="X" width="25" height="25"></a>
+					</div>
 				</article>
 				<article id="projects">
+					<div style="width: 95%; float:left">
+   					<h2>Projects</h2>
+					<ul>
+						<li>
+							<p style="font-weight: bold;">PageRank Simulator</p>
+							<ul>
+								<li>
+									Used C++ to simulate a webpage dataset and implement the PageRank algorithm.
+								</li>
+								<li>
+									Developed a crawler to autonomously discover relevant webpages using depth-first search.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://tmlabonte.github.io/SBHacks2018/"><p style="font-weight: bold;">World’s Stage</p></a>
+							<ul>
+								<li>
+									Ethical Hacking Finalist (top 20 out of thousands of projects from dozens of MLH hackathons).
+								</li>
+								<li>
+									Utilized JavaScript to implement and combine the YouTube API and Google Maps API, enabling users to explore cultural differences in dance through access to undiscovered cover videos. 
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://tmlabonte.github.io/compute/"><p style="font-weight: bold;">Compute</p></a>
+							<ul>
+								<li>
+									Used JavaScript to program an incremental game whose progression is governed by a series of exponential functions.
+								</li>
+								<li>
+									Devised a method to gather efficiency data from web app and export to a spreadsheet for analysis.
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="https://github.com/tmlabonte/TrojanHacks2017"><p style="font-weight: bold;">USCalendar</p></a>
+							<ul>
+								<li>
+									Honorable Mention at TrojanHacks hackathon
+								</li>
+								<li>
+									Applied JavaScript and HTML/CSS to program an automatic push notification system for course tracking website.
+								</li>
+							</ul>
+						</li>
+					</ul>
+					</div>
+					<div style="width: 5%; float:right">
+					<a href=""><img id="x" src="images/X.png" alt="X" width="25" height="25"></a>
+					</div>
 				</article>
 			</div>
 		</div>
@@ -74,6 +160,16 @@
 			document.getElementsByClassName("title")[0].style.display = "none";
 			document.getElementsByClassName("nav")[0].style.display = "none";
 			document.getElementById("about").style.display = "block";
+		}
+		function research() {
+			document.getElementsByClassName("title")[0].style.display = "none";
+			document.getElementsByClassName("nav")[0].style.display = "none";
+			document.getElementById("research").style.display = "block";
+		}
+		function projects() {
+			document.getElementsByClassName("title")[0].style.display = "none";
+			document.getElementsByClassName("nav")[0].style.display = "none";
+			document.getElementById("projects").style.display = "block";
 		}
 	</script>
 </html>
