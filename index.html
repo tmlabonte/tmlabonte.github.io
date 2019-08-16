@@ -50,10 +50,10 @@
 				<article id="about">
 					<div style="width: 65%; float:left">
 	   					<h2>Hey there, I'm Tyler!</h2>
-						<p>I'm a sophomore, Trustee Scholar (top 2% of USC Class of 2021), and Viterbi Fellow (top 6% of Viterbi Class of 2021) at the University of Southern California. I'm majoring in Computer Science and minoring in Statistics.</p>
+						<p>I'm a junior, Trustee Scholar (top 2% of USC Class of 2021), and Viterbi Fellow (top 6% of Viterbi Class of 2021) at the University of Southern California. I'm a double major in Computer Science and Applied and Computational Mathematics.</p>
 						<p>Raised in Hawaii, my favorite pastimes include training in karate (I'm a third degree black belt), going on scenic hikes, and eating <a href="https://www.google.com/search?q=loco+moco&num=30&source=lnms&tbm=isch&sa=X&ved=0ahUKEwip7eWe6cTWAhUKslQKHdnrCDUQ_AUICigB&biw=1364&bih=677">Loco Mocos</a>. I'm incredibly excited to be studying in Los Angeles, the city of dreamers and doers alike; the vibrancy of the city provides inspiration for both my creative and technological ventures.</p>
-						<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of deep learning, theoretical computer science, and data science through original, ethical research with real-world applications. Last year, I worked at USC's <a href="http://dsi.usc.edu">Data Science Institute</a> as an undergraduate researcher on Big Data projects, developing machine learning algorithms to predict graft failure probabilities of liver transplantations. Over the summer, I worked as a Deep Learning Intern at the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">Air Force Maui Optical and Supercomputing Laboratory</a> and developed the <a href="https://github.com/tmlabonte/tendies">TensorFlow Distributed Image Serving</a> library for decoupling deep learning development and deployment.</p>
-						<p>I'm currently searching for a research internship for the summer of 2019 - please feel free to view my <a href="Resume.pdf" target="_blank">resume</a> or shoot me an <a href="mailto:tlabonte@usc.edu">email</a> if you would like to get in touch.</p>
+						<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of deep learning, theoretical computer science, and data science through original, ethical research with real-world applications. Last year, I worked as a Machine Learning Intern at the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">Air Force Maui Optical and Supercomputing Laboratory</a> and developed the <a href="https://github.com/tmlabonte/tendies">TensorFlow Distributed Image Serving</a> library for decoupling deep learning development and deployment. One year later, this project has 18 stars and 7 forks on GitHub.</p>
+						<p>I am currently a Machine Learning Intern at <a href="https://sandia.gov">Sandia National Laboratories</a>, where during the summer I designed a pipeline for to accelerate development of machine learning-based intrusion detection systems for cyber defense. My current focus at Sandia is researching applications of Bayesian convolutional neural networks for uncertainty quantification; we've seen stunning results and I am currently preparing a paper for submission to <a href="http://cvpr2020.thecvf.com/">CVPR 2020.</a><p>
 					</div>
 					<div style="width: 35%; float:right">
 						<a href=""><img id="x" src="images/X.png" alt="X" width="25" height="25"></a>
@@ -63,19 +63,40 @@
 				<article id="research">
 					<div style="width: 95%; float:left">
 	   					<h2>Research</h2>
-						<p style="line-height: 1.5em">I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of deep learning, theoretical computer science, and data science through original, ethical research with real-world applications. Specifically, I am interested in statistical learning theory, probabilistic algorithms, cryptography, and optimization - especially their connections to pure math topics such as topology and number theory.</p>
+						<p style="line-height: 1.5em">I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of deep learning, theoretical computer science, and data science through original, ethical research with real-world applications. Specifically, I am interested in theoretical machine learning, Bayesian learning, probabilistic algorithms, and optimization.</p>
+						<h3>Publications</h3>
+						<ol>
+							<li>
+								<strong>LaBonte</strong>, Martinez, and Roberts. 3D Bayesian Convolutional Neural Networks for Credible Uncertainty Quantification of Binary Segmentations for Material Simulations. <i>Under Preparation for 2020 IEEE Conference on Computer Vision and Pattern Recognition (CVPR).</i>
+							</li>
+						</ol>
+						<h3>Positions</h3>
 						<ul>
 							<li>
-								<a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory"><p style="font-weight: bold;">Deep Learning Research Intern, Air Force Maui Optical and Supercomputing Site</p></a>
+								<a href="https://www.sandia.gov/"><p style="font-weight: bold;">Machine Learning Intern, Sandia National Laboratories</p></a>
 								<ul>
 									<li>
-										Used TensorFlow-Serving to develop a lightweight, RESTful remote inference library for decoupling deep learning development and deployment, enabling model usage on classified networks, IoT devices, and production systems. Offset $150,000 of machine learning engineer salary time via project completion months ahead of schedule.
+										Developed novel 3D Bayesian V-Net with TensorFlow Probability to quantify uncertainty in CT scans used in safety-critical simulations, achieving 98% accuracy and beating state-of-the-art dropout technique.
 									</li>
 									<li>
-										Utilized TensorFlow to design a generative adversarial network (CycleGAN) to impose organic deep-space noise profiles on anomalous priors, augmenting existing Faster R-CNN algorithm for spatial anomaly detection.
+										Designed pipeline to accelerate development of machine learning-based intrusion detection systems for cyber defense. Built Random Forest-based classifier for malicious RTFs, achieving 99.9% accuracy and usage in production.
 									</li>
 									<li>
-										Communicated my research at two symposium talks to technical audiences of 50+.
+										Briefed research results and implications to leadership including Associate Laboratory Director of Mission Assurance.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory"><p style="font-weight: bold;">Machine Learning Intern, Air Force Maui Optical and Supercomputing Site</p></a>
+								<ul>
+									<li>
+										Delivered a lightweight, RESTful remote inference library in TensorFlow Serving for decoupling deep learning development and deployment, enabling model usage on classified networks, IoT devices, and production systems. Offset $100,000 of machine learning engineer salary on Machine Intelligence for Space Superiority portfolio.
+									</li>
+									<li>
+										Implemented a CycleGAN in TensorFlow to impose organic deep-space noise profiles on anomalous priors, augmenting existing Faster R-CNN for astronomical anomaly detection.
+									</li>
+									<li>
+										Briefed research results and implications to a dozen key Department of Defense leaders.
 									</li>
 								</ul>
 							</li>
@@ -83,16 +104,13 @@
 								<a href="dsi.usc.edu"><p style="font-weight: bold;">Undergraduate Researcher, USC Data Science Institute</p></a>
 								<ul>
 									<li>
-										Used Keras and Scikit to develop machine learning algorithms to predict graft futility in liver transplantation patients. Achieved an AUROC of 0.74 with deep neural network (DNN)/random forest ensemble model.
+										Used Keras and Scikit to develop machine learning algorithms to predict graft futility in liver transplantation patients. Achieved an AUROC of 0.74 with Deep Neural Network and Random Forest ensemble model.
 									</li>
 									<li>
 										Reduced entries in “dirty dataset” by 93% through preprocessing and cleansing, resulting in 22,000 usable entries.
 									</li>
 									<li>
 										Applied F1-score and AUROC to rank models including deep neural networks, support vector machines, and random forests.
-									</li>
-									<li>
-										Wrote and researched sections of conference paper (submitted to Stanford ML for Healthcare) and project/funding proposals.
 									</li>
 								</ul>
 							</li>
@@ -107,13 +125,38 @@
 	   					<h2>Projects</h2>
 						<ul>
 							<li>
-								<p style="font-weight: bold;">PageRank Simulator</p>
+								<a href="https://github.com/gstenger98/SRGAN-TreeHacks"><p style="font-weight: bold;">Crystallize</p></a>
 								<ul>
 									<li>
-										Used C++ to simulate a webpage dataset and implement the PageRank algorithm.
+										Won 1st Place Computer Vision AI Hack <i>and</i> 1st Place Healthcare Hack out of over 120 projects.
 									</li>
 									<li>
-										Developed a crawler to autonomously discover relevant webpages using depth-first search.
+										Achieved 2x resolution upscaling for DIY medical imaging and real-time video streaming on mobile phones.
+									</li>
+									<li>
+										Compressed state-of-the-art 50GB super-resolution GAN by a factor of 100k yet preserved performance. Used TensorFlow to integrate VGG embeddings into a GAN for low-complexity, high-speed inference.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="https://github.com/tmlabonte/embedding-fairness"><p style="font-weight: bold;">Embedding Fairness</p></a>
+								<ul>
+									<li>
+										Compared fairness metrics of SVD and skip-gram word embeddings on a dataset of 50k news articles, using Keras.
+									</li>
+									<li>
+										Developed methods for debiasing embeddings including a novel fairness-based regularizer.
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="https://github.com/gstenger98/ai-for-adversarial-games"><p style="font-weight: bold;">AI for Adversarial Games</p></a>
+								<ul>
+									<li>
+										Developed Deep Q-Networks in PyTorch to beat minimax and alpha-beta pruning algorithms in adversarial games.
+									</li>
+									<li>
+										Engineered a human-level Pyramix player via a greedy and heuristic game-tree algorithm ensemble.
 									</li>
 								</ul>
 							</li>
@@ -121,32 +164,10 @@
 								<a href="https://tmlabonte.github.io/SBHacks2018/"><p style="font-weight: bold;">World’s Stage</p></a>
 								<ul>
 									<li>
-										Ethical Hacking Finalist (top 20 out of 4500 projects from dozens of MLH hackathons).
+										Ethical Hacking Finalist (top 20 out of 4500 projects from dozens of Major League Hacking hackathons) for paper <a href="On_Bias.pdf"><i>On Bias: How Algorithmic Inequality Propagates and Perpetuates Cultural Discrimination.</i></a>
 									</li>
 									<li>
 										Utilized JavaScript to implement and combine the YouTube API and Google Maps API, enabling users to explore cultural differences in dance through access to undiscovered cover videos. 
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="https://tmlabonte.github.io/compute/"><p style="font-weight: bold;">Compute</p></a>
-								<ul>
-									<li>
-										Used JavaScript to program an incremental game whose progression is governed by a series of exponential functions.
-									</li>
-									<li>
-										Devised a method to gather efficiency data from web app and export to a spreadsheet for analysis.
-									</li>
-								</ul>
-							</li>
-							<li>
-								<a href="https://github.com/tmlabonte/TrojanHacks2017"><p style="font-weight: bold;">USCalendar</p></a>
-								<ul>
-									<li>
-										Honorable Mention at TrojanHacks hackathon
-									</li>
-									<li>
-										Applied JavaScript and HTML/CSS to program an automatic push notification system for course tracking website.
 									</li>
 								</ul>
 							</li>

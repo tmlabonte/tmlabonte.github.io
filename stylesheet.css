@@ -32,6 +32,12 @@ h2 {
   font-size: 2em;
 }
 
+h3 {
+  color: #001f3f;
+  font-family: 'Capriola', sans-serif;
+  font-size: 1.4em;
+}
+
 p {
   color: #001f3f;
   font-family: 'Lato', sans-serif;
