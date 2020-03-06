@@ -33,7 +33,7 @@
 			<div class="nav">
 				<ul id="nav">
 					<li><a href="#about" onclick="about()">About</a></li>
-					<li><a href="Resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="cv.pdf" target="_blank">CV</a></li>
 					<li><a href="#research" onclick="research()">Research</a></li>
 					<li><a href="#projects" onclick="projects()">Projects</a></li>
 					<li><a href="https://medium.com/@tmlabonte" target="_blank">Blog</a></li>
@@ -50,10 +50,11 @@
 				<article id="about">
 					<div style="width: 65%; float:left">
 	   					<h2>Hey there, I'm Tyler!</h2>
-						<p>I'm a junior, Trustee Scholar (top 2% of USC Class of 2021), and Viterbi Fellow (top 6% of Viterbi Class of 2021) at the University of Southern California. I'm a double major in Computer Science and Applied and Computational Mathematics.</p>
-						<p>Raised in Hawaii, my favorite pastimes include training in karate (I'm a third degree black belt), going on scenic hikes, and eating <a href="https://www.google.com/search?q=loco+moco&num=30&source=lnms&tbm=isch&sa=X&ved=0ahUKEwip7eWe6cTWAhUKslQKHdnrCDUQ_AUICigB&biw=1364&bih=677">Loco Mocos</a>. I'm incredibly excited to be studying in Los Angeles, the city of dreamers and doers alike; the vibrancy of the city provides inspiration for both my creative and technological ventures.</p>
-						<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of deep learning, theoretical computer science, and data science through original, ethical research with real-world applications. Last year, I worked as a Machine Learning Intern at the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">Air Force Maui Optical and Supercomputing Laboratory</a> and developed the <a href="https://github.com/tmlabonte/tendies">TensorFlow Distributed Image Serving</a> library for decoupling deep learning development and deployment. One year later, this project has 18 stars and 7 forks on GitHub.</p>
-						<p>I am currently a Machine Learning Intern at <a href="https://sandia.gov">Sandia National Laboratories</a>, where during the summer I designed a pipeline for to accelerate development of machine learning-based intrusion detection systems for cyber defense. My current focus at Sandia is researching applications of Bayesian convolutional neural networks for uncertainty quantification; we've seen stunning results and I am currently preparing a paper for submission to <a href="http://cvpr2020.thecvf.com/">CVPR 2020.</a><p>
+						<p>I'm a junior at the University of Southern California majoring in Applied and Computational Mathematics with a minor in Computer Science. I am a USC Trustee Scholar and a USC Viterbi Fellow.</p>
+						<p>I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to develop the theoretical foundations of machine learning, deep learning, and optimization through original, impactful research.</p>
+						<p>I am currently a Machine Learning Intern at <a href="https://x.company">X, the moonshot factory</a>, and I previously did ML work at <a href="https://sandia.gov">Sandia National Laboratories</a> and the <a href="https://en.wikipedia.org/wiki/Air_Force_Maui_Optical_and_Supercomputing_observatory">Air Force Maui Optical and Supercomputing Laboratory</a>.</p>
+						<p>Check out my most recent paper on Bayesian convolutional neural networks for geometric uncertainty quantification <a href="https://arxiv.org/abs/1910.10793">here.</a><p>
+						<p>During the fall of 2020, I will be focusing on applying to PhD programs in theoretical machine learning.</p>
 					</div>
 					<div style="width: 35%; float:right">
 						<a href=""><img id="x" src="images/X.png" alt="X" width="25" height="25"></a>
@@ -63,20 +64,28 @@
 				<article id="research">
 					<div style="width: 95%; float:left">
 	   					<h2>Research</h2>
-						<p style="line-height: 1.5em">I am passionate about tackling the toughest problems in artificial intelligence from a mathematical standpoint. My goal is to further the fields of deep learning, theoretical computer science, and data science through original, ethical research with real-world applications. Specifically, I am interested in theoretical machine learning, Bayesian learning, probabilistic algorithms, and optimization.</p>
+						<p style="line-height: 1.5em">My research interests encompass the mathematical foundations of machine learning and data science, including deep learning theory, high-dimensional optimization, and provable guarantees on the training of neural networks.</p>
 						<h3>Publications</h3>
 						<ol>
 							<li>
-								<strong>LaBonte</strong>, Martinez, and Roberts. 3D Bayesian Convolutional Neural Networks for Credible Uncertainty Quantification of Binary Segmentations for Material Simulations. <i>Under Preparation for 2020 IEEE Conference on Computer Vision and Pattern Recognition (CVPR).</i>
+								<strong>T. LaBonte</strong>, C. Martinez, and S. A. Roberts. 3D Bayesian CNNs for Credible Geometric Uncertainty.
 							</li>
 						</ol>
 						<h3>Positions</h3>
 						<ul>
 							<li>
+								<a href="https://x.company/"><p style="font-weight: bold;">Machine Learning Intern, X, the moonshot factory</p></a>
+								<ul>
+									<li>
+										Selected for advanced vision-based machine learning internship in confidential early-stage project.
+									</li>
+								</ul>
+							</li>
+							<li>
 								<a href="https://www.sandia.gov/"><p style="font-weight: bold;">Machine Learning Intern, Sandia National Laboratories</p></a>
 								<ul>
 									<li>
-										Developed novel 3D Bayesian V-Net with TensorFlow Probability to quantify uncertainty in CT scans used in safety-critical simulations, achieving 98% accuracy and beating state-of-the-art dropout technique.
+										Developed novel 3D Bayesian CNN with TensorFlow Probability to quantify uncertainty in CT scans used in safety-critical simulations, achieving 99% accuracy and beating state-of-the-art dropout technique. Accelerated credible machine learning workflow on experimental $2,000,000 volumetric meshing project.
 									</li>
 									<li>
 										Designed pipeline to accelerate development of machine learning-based intrusion detection systems for cyber defense. Built Random Forest-based classifier for malicious RTFs, achieving 99.9% accuracy and usage in production.
@@ -128,7 +137,7 @@
 								<a href="https://github.com/gstenger98/SRGAN-TreeHacks"><p style="font-weight: bold;">Crystallize</p></a>
 								<ul>
 									<li>
-										Won 1st Place Computer Vision AI Hack <i>and</i> 1st Place Healthcare Hack out of over 120 projects.
+										Won 1st Place Computer Vision AI Hack <i>and</i> 1st Place Healthcare Hack out of over 120 projects at Stanford TreeHacks.
 									</li>
 									<li>
 										Achieved 2x resolution upscaling for DIY medical imaging and real-time video streaming on mobile phones.
