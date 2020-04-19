@@ -1,0 +1,30 @@
+# jemdoc: menu{MENU}{index.html}, showsource
+= Tyler LaBonte
+
+~~~
+{}{img_left}{PROFILE PIC.jpg}{A photograph of me.}{200px}{200px}
+Tyler LaBonte\n
+Machine Learning Research Intern at [https://x.company Google X]\n
+Undergraduate Researcher at the [https://usc.edu University of Southern California]\n
+t + lastname@usc.edu
+~~~
+
+== About Me
+I am a research intern in machine learning at [https://x.company Google X] and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC, previously advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a research intern in machine learning at [https://sandia.gov Sandia National Laboratories] and the [https://afresearchlab.com Air Force Research Laboratory]. I am a junior at USC pursuing a BS in Applied and Computational Mathematics, with a minor in Computer Science. I will graduate in May 2021, and I plan to attend a PhD program in machine learning theory.\n\n
+
+My research interests include:
+	- Mathematical Foundations of Machine Learning and Data Science
+	- Theory of Deep Learning and Deep Reinforcement Learning
+	- Non-Convex Optimization and High-Dimensional Statistics
+	- Explainability, Fairness, Robustness, and Scalability of Machine Learning
+	- Randomized and Approximation Algorithms
+
+== Selected Awards
+	- USC Trustee Scholar (\$250,000)
+	- USC Viterbi Fellow (\$24,000)
+	- Dolphin Scholarship (\$13,600)
+	- Admiral Bernard Clarey Memorial Scholarship (\$7,000)
+
+== Selected Publications
+	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
+	  Tyler LaBonte, Carianne Martinez, and Scott A. Roberts.

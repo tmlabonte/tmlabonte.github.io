@@ -1,0 +1,7 @@
+# jemdoc: menu{MENU}{publications.html}, showsource
+= Software
+
+	- [https://github.com/sandialabs/bcnn BCNN: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
+	  13 stars and 3 forks on GitHub
+	- [https://github.com/tmlabonte/tendies Tendies: TensorFlow Distributed Image Serving]\n
+	  30 stars and 8 forks on GitHub 
