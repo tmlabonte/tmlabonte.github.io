@@ -10,14 +10,18 @@ t + lastname@usc.edu
 ~~~
 
 == About Me
-I am a research intern in machine learning at [https://x.company Google X] and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC, previously advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a research intern in machine learning at [https://sandia.gov Sandia National Laboratories] and the [https://afresearchlab.com Air Force Research Laboratory]. I am a junior at USC pursuing a BS in Applied and Computational Mathematics, with a minor in Computer Science. I will graduate in May 2021, and I plan to attend a PhD program in machine learning theory.\n\n
+I am a machine learning research intern at [https://x.company Google X] working on [https://blog.x.company/entering-the-era-of-computational-agriculture-9f8417f21be0 computational agriculture] and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC, formerly advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a machine learning research intern at [https://sandia.gov Sandia National Laboratories] and the [https://afresearchlab.com Air Force Research Laboratory].
 
-My research interests include:
+~~~
+I will graduate from USC in May 2021 with my B.S. in Applied and Computational Mathematics. I am currently applying to Ph.D. programs in machine learning theory. If you are interested in working together, please [tlabonte@usc.edu contact me]!
+~~~
+
+== Research Interests
 	- Mathematical Foundations of Machine Learning and Data Science
 	- Theory of Deep Learning and Deep Reinforcement Learning
+	- Online Learning and Bandit Problems
 	- Non-Convex Optimization and High-Dimensional Statistics
 	- Explainability, Fairness, Robustness, and Scalability of Machine Learning
-	- Randomized and Approximation Algorithms
 
 == Selected Awards
 	- USC Trustee Scholar (\$250,000)
@@ -27,4 +31,5 @@ My research interests include:
 
 == Selected Publications
 	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
-	  Tyler LaBonte, Carianne Martinez, and Scott A. Roberts.
+	  Tyler LaBonte, Carianne Martinez, and Scott A. Roberts.\n
+	  Under submission to ECCV 2020. 
