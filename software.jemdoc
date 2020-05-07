@@ -2,6 +2,8 @@
 = Software
 
 	- [https://github.com/sandialabs/bcnn BCNN: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
-	  13 stars and 3 forks on GitHub
+	  16 stars and 4 forks on GitHub\n
+	  Transitioned to a production environment by Sandia National Laboratories
 	- [https://github.com/tmlabonte/tendies Tendies: TensorFlow Distributed Image Serving]\n
-	  30 stars and 8 forks on GitHub 
+	  31 stars and 8 forks on GitHub\n
+	  Transitioned to a production environment by the Air Force Research Laboratory

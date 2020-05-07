@@ -5,19 +5,19 @@
 {}{img_left}{PROFILE PIC.jpg}{A photograph of me.}{200px}{200px}
 Tyler LaBonte\n
 Machine Learning Research Intern at [https://x.company Google X]\n
-Undergraduate Researcher at the [https://usc.edu University of Southern California]\n
+Viterbi Fellow at the [https://usc.edu University of Southern California]\n
 t + lastname@usc.edu
 ~~~
 
 == About Me
-I am a machine learning research intern at [https://x.company Google X] working on [https://blog.x.company/entering-the-era-of-computational-agriculture-9f8417f21be0 computational agriculture] and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC, formerly advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a machine learning research intern at [https://sandia.gov Sandia National Laboratories] and the [https://afresearchlab.com Air Force Research Laboratory].
+I am a machine learning research intern at [https://x.company/ Google X] working on [https://blog.x.company/entering-the-era-of-computational-agriculture-9f8417f21be0 computational agriculture] and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC, formerly advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a machine learning research intern at [https://sandia.gov/ Sandia National Laboratories] and the [https://afresearchlab.com/ Air Force Research Laboratory].
 
 ~~~
 I will graduate from USC in May 2021 with my B.S. in Applied and Computational Mathematics. I am currently applying to Ph.D. programs in machine learning theory. If you are interested in working together, please [tlabonte@usc.edu contact me]!
 ~~~
 
 == Research Interests
-	- Mathematical Foundations of Machine Learning and Data Science
+	- *Mathematical Foundations of Machine Learning and Data Science*
 	- Theory of Deep Learning and Deep Reinforcement Learning
 	- Online Learning and Bandit Problems
 	- Non-Convex Optimization and High-Dimensional Statistics

@@ -3,5 +3,9 @@
 
 == Preprints
 	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
-	  Tyler LaBonte, Carianne Martinez, and Scott A. Roberts.\n
-	  Under submission to ECCV 2020. 
+	  *Tyler LaBonte*, Carianne Martinez, and Scott A. Roberts.\n
+	  Under submission to ECCV 2020.
+== Acknowledgements
+	- [https://arxiv.org/abs/1910.10793 Communication, Distortion, and Randomness in Metric Voting]\n
+	  David Kempe.\n
+	  In Proceedings of AAAI 2020.
