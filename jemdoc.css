@@ -1,4 +1,4 @@
-/* Default css file for jemdoc. */
+/* Custom css file for jemdoc. */
 
 table#tlayout {
 	border: none;
@@ -8,18 +8,18 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Georgia, serif;
+	font-family: Lato;
 	padding-bottom: 8px;
 	margin: 0;
 }
 
 #layout-menu {
-	background: #f6f6f6;
-	border: 1px solid #dddddd;
-	padding-top: 0.5em;
+	background: #f8eeee;
+	border: 1px solid #d1cebd;
+	padding-top: 0.98em;
 	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 1.0em;
+	padding-right: 16px;
+	font-size: 1.1em;
 	width: auto;
 	white-space: nowrap;
 	text-align: left;
@@ -78,6 +78,9 @@ a:hover {
 }
 
 div.menu-category {
+	font-size: 110%;
+	font-family: Roboto;
+	color: #9d0b0b;
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
@@ -118,7 +121,8 @@ strong {
 
 
 h1, h2, h3 {
-	color: #527bbd;
+	font-family: Roboto;
+	color: #9d0b0b;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -128,12 +132,12 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 200%;
+	font-size: 225%;
 }
 
 h2 {
 	padding-top: 0.8em;
-	font-size: 125%;
+	font-size: 135%;
 }
 
 h2 + h3 {
@@ -146,6 +150,7 @@ h3 {
 }
 
 p {
+	font-size: 110%;
 	margin-top: 0.0em;
 	margin-bottom: 0.8em;
 	padding: 0;
@@ -251,7 +256,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #ffffee;
+	background: #f6eedf;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
