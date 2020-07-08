@@ -10,21 +10,22 @@ t + lastname@usc.edu
 ~~~
 
 == About Me
-I am a machine learning research intern at [https://x.company/ X, the moonshot factory] -- Alphabet's innovation lab -- and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC, formerly advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a machine learning research intern at [https://sandia.gov/ Sandia National Laboratories] and the [https://afresearchlab.com/ Air Force Research Laboratory].
+I am a machine learning research intern at [https://x.company/ X, the moonshot factory] -- Alphabet's innovation lab -- and an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ Theory Group] at USC. I have been fortunate to be advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], [https://jasondlee88.github.io/ Jason D. Lee], and [http://david-kempe.com/ David Kempe]. Previously, I was a machine learning research intern at [https://sandia.gov/ Sandia National Laboratories] and the [https://afresearchlab.com/ Air Force Research Laboratory].
+
+I take a scientific approach to reconcile theory with empirical phenomena in deep learning. I develop fast, scrappy experiments that challenge conventional wisdom, then use the results to guide and revise theoretical hypotheses. My undergraduate research has focused on convex optimization, computer vision, and Bayesian learning.
 
 ~~~
 I will graduate from USC in May 2021 with my B.S. in Applied and Computational Mathematics. I am currently applying to Ph.D. programs in machine learning theory. If you are interested in working together, please [tlabonte@usc.edu contact me]!
 ~~~
 
 == Research Interests
-	- *Mathematical Foundations of Machine Learning and Data Science*
-	- Theory of Deep Learning and Deep Reinforcement Learning
+	- *Mathematical Foundations of Machine Learning*
+	- Generalization Theory of Deep Learning
+	- Convex and Non-Convex Optimization
 	- Online Learning and Bandit Problems
-	- Non-Convex Optimization and High-Dimensional Statistics
-	- Explainability, Fairness, Robustness, and Scalability of Machine Learning
 
 == Selected Awards
-	- SIMLR Award for Outstanding Intern (Top ML intern at Sandia National Laboratories)
+	- SIMLR Award for Outstanding Intern
 	- USC Trustee Scholar (\$250,000)
 	- USC Viterbi Fellow (\$24,000)
 	- Dolphin Scholarship (\$13,600)
