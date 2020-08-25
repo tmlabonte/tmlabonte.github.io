@@ -2,14 +2,12 @@
 = Publications
 
 == Preprints
+    - Object Evolution: A Generalization of Multiple Object Tracking for Biological Domains\n
+      *Tyler LaBonte* and Daniel Ribeiro Silva.\n
+      In preparation.
 	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
 	  *Tyler LaBonte*, Carianne Martinez, and Scott A. Roberts.\n
 	  Under submission to WACV 2021.
-
-== Conference Articles
-	- [https://iopscience.iop.org/article/10.1149/MA2020-012448mtgabs Effective Property Uncertainty of Graphite Electrodes from Computed Tomography Using Bayesian Convolutional Neural Networks]\n
-	  Chance Norris, *Tyler LaBonte*, Carianne Martinez, Scott A. Roberts, and Partha P. Mukerjee.\n
-	  To appear in ECS Transactions 2020 (conference cancelled due to COVID-19).
 
 == Acknowledgements
 	- [https://arxiv.org/abs/1911.08129 Communication, Distortion, and Randomness in Metric Voting]\n
