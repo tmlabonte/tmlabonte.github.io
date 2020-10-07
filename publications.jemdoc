@@ -3,13 +3,19 @@
 
 == Preprints
     - Object Evolution: A Generalization of Multiple Object Tracking for Biological Domains\n
-      *Tyler LaBonte* and Daniel Ribeiro Silva.\n
-      In preparation.
+      *Tyler LaBonte* and Daniel R. Silva\n
+      In preparation
+    - Impact of Geometric Uncertainty in 3D Image Data on Physical Properties\n
+      Michael C. Krygier, Chance Norris, *Tyler LaBonte*, Carianne Martinez, Lincoln N. Collins, and Scott A. Roberts\n
+      Under submission
 	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
-	  *Tyler LaBonte*, Carianne Martinez, and Scott A. Roberts.\n
-	  Under submission to WACV 2021.
+	  *Tyler LaBonte*, Carianne Martinez, and Scott A. Roberts\n
+	  Under submission
 
 == Acknowledgements
+    - How Machine Learning Will Revolutionize Electrochemical Sciences\n
+      Aashutosh Mistry, Alejandro A. Franco, Samuel J. Cooper, Scott A. Roberts, and Venkatasubramanian Viswanathan\n
+      Under submission
 	- [https://arxiv.org/abs/1911.08129 Communication, Distortion, and Randomness in Metric Voting]\n
-	  David Kempe.\n
-	  In Proceedings of AAAI 2020.
+	  David Kempe\n
+	  In Proceedings of AAAI 2020
