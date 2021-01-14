@@ -2,15 +2,12 @@
 = Publications
 
 == Preprints
-    - Object Evolution: A Generalization of Multiple Object Tracking for Biological Domains\n
-      *Tyler LaBonte* and Daniel R. Silva\n
-      In preparation for ICCV 2021
     - [https://arxiv.org/abs/2012.09913 Quantifying the Unknown: Impact of Segmentation Uncertainty on Image-Based Simulations]\n
       Michael C. Krygier, *Tyler LaBonte*, Carianne Martinez, Chance Norris, Krish Sharma, Lincoln N. Collins, Partha P. Mukherjee, and Scott A. Roberts\n
       Under submission to Nature Communications
 	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
 	  *Tyler LaBonte*, Carianne Martinez, and Scott A. Roberts\n
-	  Under submission to WACV 2021
+	  Preprint
 
 == Acknowledgements
     - How Machine Learning Will Revolutionize Electrochemical Sciences\n
