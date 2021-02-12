@@ -8,13 +8,13 @@ table#tlayout {
 
 body {
 	background: white;
-	font-family: Lato;
+	font-family: Source Serif Pro, serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
 
 #layout-menu {
-	background: #f8eeee;
+	background: #f9ffe3;
 	border: 1px solid #d1cebd;
 	padding-top: 0.98em;
 	padding-left: 8px;
@@ -27,7 +27,7 @@ body {
 }
 
 #layout-menu td {
-	background: #f4f4f4;
+	background: #96b85d;
 	vertical-align: top;
 }
 
@@ -79,8 +79,8 @@ a:hover {
 
 div.menu-category {
 	font-size: 110%;
-	font-family: Roboto;
-	color: #9d0b0b;
+	font-family: Source Serif Pro, serif;
+	color: green;
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
@@ -121,8 +121,8 @@ strong {
 
 
 h1, h2, h3 {
-	font-family: Roboto;
-	color: #9d0b0b;
+	font-family: Source Serif Pro, serif;
+	color: green;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
