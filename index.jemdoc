@@ -2,28 +2,18 @@
 = Tyler LaBonte
 
 ~~~
-{}{img_left}{PROFILE PIC.jpg}{A photograph of me.}{300px}{300px}
+{}{img_left}{PROFILE PIC.jpg}{A photograph of me.}{200px}{200px}
 Tyler LaBonte\n
 t + lastname@usc.edu\n\n
-Machine Learning Research Intern at [https://www.microsoft.com/en-us/research/ Microsoft Research]\n
 Ph.D. Student in Machine Learning at the [https://www.gatech.edu/ Georgia Institute of Technology]\n
+Machine Learning Research Intern at [https://www.microsoft.com/en-us/research/ Microsoft Research]\n
 DoD NDSEG Fellow
 ~~~
 
 == About Me
-I am a Ph.D. student in Machine Learning at the [https://www.gatech.edu/ Georgia Institute of Technology] advised by [https://www2.isye.gatech.edu/~tzhao80/ Tuo Zhao] and an ML research intern at [https://www.microsoft.com/en-us/research/ Microsoft Research]. My research is generously supported by the [https://ndseg.sysplus.com/ DoD NDSEG Fellowship].\n\n
+I am a first-year Ph.D. student in Machine Learning at the [https://www.gatech.edu/ Georgia Institute of Technology] advised by [https://www2.isye.gatech.edu/~tzhao80/ Tuo Zhao] and an ML research intern at [https://www.microsoft.com/en-us/research/ Microsoft Research] advised by [https://www.neelj.com Neel Joshi]. My work is generously supported by the [https://ndseg.sysplus.com/ DoD NDSEG Fellowship].\n\n
 
-I received my B.S. in Applied and Computational Mathematics, /magna cum laude/, at the [https://www.usc.edu University of Southern California], where I was a Trustee Scholar and Viterbi Fellow. As an undergraduate researcher in the [https://viterbi-web.usc.edu/~cstheory/ USC CS Theory Group] advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], my senior thesis in convex optimization received the Discovery Scholar distinction for exemplary research. I have also been advised by [https://jasondlee88.github.io/ Jason D. Lee] and [http://david-kempe.com/ David Kempe]. Previously, I was a machine learning research intern at [https://x.company Google X], [https://sandia.gov/ Sandia National Laboratories] and the [https://afresearchlab.com/ Air Force Research Laboratory].\n\n
-
-I take a scientific approach to reconcile theory with empirical phenomena in deep learning. I develop fast, scrappy experiments that challenge conventional wisdom, then use the results to guide and revise theoretical hypotheses. I am currently focused on topics related to optimization and generalization in deep learning.
-
-== Education
-Georgia Institute of Technology, 2021--\n
-Ph.D., Machine Learning\n\n
-
-University of Southern California, 2017--2021\n
-B.S., Applied and Computational Mathematics, /magna cum laude/\n
-Minor in Computer Science
+I received my B.S. in Applied and Computational Mathematics at the [https://www.usc.edu University of Southern California] advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], where I was a Trustee Scholar and Viterbi Fellow. My senior thesis in convex optimization won the Discovery Scholar recognition for exemplary research. Previously, I was a machine learning research intern at [https://x.company Google X] and [https://sandia.gov/ Sandia National Laboratories].
 
 == Research Interests
 	- *Mathematical Foundations of Machine Learning*
