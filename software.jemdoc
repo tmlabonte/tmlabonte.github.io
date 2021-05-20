@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{publications.html}, showsource
-= Software
+= Open-Source Software
 
 	- [https://github.com/sandialabs/bcnn BCNN: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
 	  35 stars and 10 forks on GitHub\n

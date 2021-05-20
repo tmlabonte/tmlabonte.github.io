@@ -11,9 +11,9 @@ Machine Learning Research Intern at [https://www.microsoft.com/en-us/research/ M
 ~~~
 
 == About Me
-I am a first-year Ph.D. student in Machine Learning at the [https://www.gatech.edu/ Georgia Institute of Technology] advised by [https://www2.isye.gatech.edu/~tzhao80/ Tuo Zhao] and an ML research intern at [https://www.microsoft.com/en-us/research/ Microsoft Research] advised by [https://www.neelj.com/ Neel Joshi]. My work is generously supported by the [https://ndseg.sysplus.com/ DoD NDSEG Fellowship].\n\n
+I am a first-year Ph.D. student in Machine Learning at [https://www.gatech.edu/ Georgia Tech] advised by [https://www2.isye.gatech.edu/~tzhao80/ Tuo Zhao] and an ML research intern at [https://www.microsoft.com/en-us/research/ Microsoft Research] advised by [https://www.neelj.com/ Neel Joshi]. My work is generously supported by the [https://ndseg.sysplus.com/ DoD NDSEG Fellowship].\n\n
 
-I received my B.S. in Applied and Computational Mathematics at the [https://www.usc.edu University of Southern California] advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], where I was a Trustee Scholar and Viterbi Fellow. My senior thesis in convex optimization won the Discovery Scholar recognition for exemplary research. Previously, I was a machine learning research intern at [https://x.company Google X] and [https://sandia.gov/ Sandia National Laboratories].
+I received my B.S. in Applied and Computational Mathematics at the [https://www.usc.edu University of Southern California] advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], where I was a Trustee Scholar and Viterbi Fellow. My [thesis.pdf senior thesis] in convex optimization received the Discovery Scholar distinction for exemplary research. Previously, I was an ML research intern at [https://x.company Google X] and [https://sandia.gov/ Sandia National Laboratories].
 
 == Research Interests
 	- *Mathematical Foundations of Machine Learning*
@@ -29,6 +29,9 @@ I received my B.S. in Applied and Computational Mathematics at the [https://www.
 	- USC Viterbi Fellow (\$24,000)
 
 == Selected Publications
+    - [thesis.pdf Finding the Needle in a High-Dimensional Haystack: Oracle Methods for Convex Optimization]\n
+      *Tyler LaBonte*\n
+      Senior Thesis (Received the USC Discovery Scholar distinction)
     - [https://arxiv.org/abs/2012.09913 Quantifying the Unknown: Impact of Segmentation Uncertainty on Image-Based Simulations]\n
       Michael C. Krygier, *Tyler LaBonte*, Carianne Martinez, Chance Norris, Krish Sharma, Lincoln N. Collins, Partha P. Mukherjee, and Scott A. Roberts\n
       Under submission to Nature Communications
