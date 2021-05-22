@@ -2,15 +2,18 @@
 = Publications
 
 == Preprints
-    - [thesis.pdf Finding the Needle in a High-Dimensional Haystack: Oracle Methods for Convex Optimization]\n
-      *Tyler LaBonte*\n
-      Senior Thesis (Received the USC Discovery Scholar distinction)
-    - [https://arxiv.org/abs/2012.09913 Quantifying the Unknown: Impact of Segmentation Uncertainty on Image-Based Simulations]\n
+        - [https://arxiv.org/abs/2012.09913 Quantifying the Unknown: Impact of Segmentation Uncertainty on Image-Based Simulations]\n
       Michael C. Krygier, *Tyler LaBonte*, Carianne Martinez, Chance Norris, Krish Sharma, Lincoln N. Collins, Partha P. Mukherjee, and Scott A. Roberts\n
       Under submission to Nature Communications
 	- [https://arxiv.org/abs/1910.10793 We Know Where We Don't Know: 3D Bayesian CNNs for Credible Geometric Uncertainty]\n
 	  *Tyler LaBonte*, Carianne Martinez, and Scott A. Roberts\n
 	  Preprint
+
+== Thesis
+        - [thesis.pdf Finding the Needle in a High-Dimensional Haystack: Oracle Methods for Convex Optimization]\n
+      *Tyler LaBonte*\n
+      Senior Thesis\n
+      Received the USC Discovery Scholar distinction
 
 == Acknowledgements
     - [https://pubs.acs.org/doi/10.1021/acsenergylett.1c00194 How Machine Learning Will Revolutionize Electrochemical Sciences]\n

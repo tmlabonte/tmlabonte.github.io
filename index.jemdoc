@@ -11,9 +11,11 @@ Machine Learning Research Intern at [https://www.microsoft.com/en-us/research/ M
 ~~~
 
 == About Me
-I am a first-year Ph.D. student in Machine Learning at [https://www.gatech.edu/ Georgia Tech] advised by [https://www2.isye.gatech.edu/~tzhao80/ Tuo Zhao] and an ML research intern at [https://www.microsoft.com/en-us/research/ Microsoft Research] advised by [https://www.neelj.com/ Neel Joshi]. My work is generously supported by the [https://ndseg.sysplus.com/ DoD NDSEG Fellowship].\n\n
+I am a first-year Ph.D. student in Machine Learning at [https://www.gatech.edu/ Georgia Tech] advised by [https://www2.isye.gatech.edu/~tzhao80/ Tuo Zhao] and an ML research intern at [https://www.microsoft.com/en-us/research/ Microsoft Research] advised by [https://www.neelj.com/ Neel Joshi]. My work is generously supported by the [https://ndseg.sysplus.com/ DoD NDSEG] fellowship.\n\n
 
-I received my B.S. in Applied and Computational Mathematics at the [https://www.usc.edu University of Southern California] advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], where I was a Trustee Scholar and Viterbi Fellow. My [thesis.pdf senior thesis] in convex optimization received the Discovery Scholar distinction for exemplary research. Previously, I was an ML research intern at [https://x.company Google X] and [https://sandia.gov/ Sandia National Laboratories].
+I received my B.S. in Applied and Computational Mathematics at the [https://www.usc.edu University of Southern California] advised by [https://viterbi-web.usc.edu/~shaddin/ Shaddin Dughmi], where I was a Trustee Scholar and Viterbi Fellow. My [thesis.pdf senior thesis] in convex optimization received the USC Discovery Scholar distinction for exemplary research. During my undergraduate, I was an ML research intern at [https://x.company Google X] and [https://sandia.gov/ Sandia National Laboratories].\n\n
+
+In 2021, I was one of two undergraduates to receive both the [https://www.nsfgrfp.org/ NSF GRFP] and [https://ndseg.sysplus.com DoD NDSEG] fellowships in Computer Science; the other was [http://www2.ece.rochester.edu/projects/rail/people/rail-people-ethanfahnestock.html Ethan Fahnestock].
 
 == Research Interests
 	- *Mathematical Foundations of Machine Learning*
@@ -31,7 +33,8 @@ I received my B.S. in Applied and Computational Mathematics at the [https://www.
 == Selected Publications
     - [thesis.pdf Finding the Needle in a High-Dimensional Haystack: Oracle Methods for Convex Optimization]\n
       *Tyler LaBonte*\n
-      Senior Thesis (Received the USC Discovery Scholar distinction)
+      Senior Thesis\n
+      Received the USC Discovery Scholar distinction
     - [https://arxiv.org/abs/2012.09913 Quantifying the Unknown: Impact of Segmentation Uncertainty on Image-Based Simulations]\n
       Michael C. Krygier, *Tyler LaBonte*, Carianne Martinez, Chance Norris, Krish Sharma, Lincoln N. Collins, Partha P. Mukherjee, and Scott A. Roberts\n
       Under submission to Nature Communications
